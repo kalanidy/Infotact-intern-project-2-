@@ -2,7 +2,12 @@
 **Branch:** hiren  
 **Project:** SaaS/E-Commerce Cohort Retention & Customer Lifetime Value (CLTV) Analysis  
 **Organization:** Infotact Solutions  
-**Dataset:** Online Retail Dataset (Kaggle)  
+## 🔗 Dataset Source
+**Online Retail Dataset — Kaggle**
+https://www.kaggle.com/datasets/vijayuv/onlineretail
+
+> Raw data files are excluded from this repository per data privacy guidelines.  
+> Download the dataset from the link above and place it in a local `data/` folder to run the notebooks.  
 
 ---
 
