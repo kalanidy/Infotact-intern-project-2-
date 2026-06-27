@@ -22,9 +22,9 @@ the Online Retail Dataset.
 | Day | Date | Task | Status |
 |---|---|---|---|
 | Day 1 | 24th June | Calculate Historical CLTV | ✅ Done |
-| Day 2 | 25th June | Project 12-Month CLTV | ⏳ Upcoming |
-| Day 3 | 26th June | Customer Segmentation | ⏳ Upcoming |
-| Day 4 | 27th June | CAC Calculation | ⏳ Upcoming |
+| Day 2 | 25th June | Project 12-Month CLTV | ✅ Done |
+| Day 3 | 26th June | Customer Segmentation | ✅ Done |
+| Day 4 | 27th June | CAC Calculation |✅ Done |
 | Day 5 | 28th June | Markdown Documentation | ⏳ Upcoming |
 | Day 6 | 29th June | Save CSV & Final Cleanup | ⏳ Upcoming |
 
@@ -39,9 +39,9 @@ the Online Retail Dataset.
 - **Step 3:** Calculate AOV per customer
 - **Step 4:** Calculate Purchase Frequency per customer
 - **Step 5:** Compute Historical CLTV = AOV x Purchase Frequency
-- **Step 6:** Project 12-Month CLTV ⏳
-- **Step 7:** Segment customers (High / Mid / Low Value) ⏳
-- **Step 8:** Calculate Maximum Acceptable CAC ⏳
+- **Step 6:** Project 12-Month CLTV 
+- **Step 7:** Segment customers (High / Mid / Low Value) 
+- **Step 8:** Calculate Maximum Acceptable CAC 
 - **Step 9:** Save final output to CSV ⏳
 
 ---
@@ -79,12 +79,11 @@ the Online Retail Dataset.
 ## 🛠️ Libraries Used
 - Python 3
 - Pandas
-- NumPy
+- os
 
 ---
 
 ## ➡️ Next Steps
 - Complete Days 2–6 tasks as scheduled
 - Replace fallback AOV and Purchase Frequency with team outputs
-- Save final `hiren_cltv.csv` to `outputs/` folder
 - Link results into Week 4 master notebook
