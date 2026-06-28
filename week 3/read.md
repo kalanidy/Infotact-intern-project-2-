@@ -29,3 +29,10 @@
 2. Grouped orders according to customer cohorts.
 3. Computed the Average Order Value (AOV) for each cohort.
 4. Generated an intermediate dataset containing cohort-level AOV metrics for CLTV analysis.
+
+## Work Completed on 28 June
+
+- Cross-validated transaction-level revenue against aggregated customer-level revenue.
+- Verified data completeness by checking for missing values.
+- Checked for duplicate customer-cohort combinations.
+- Confirmed that the revenue dataset is ready to be shared with Member B for Average Order Value (AOV) calculations.
