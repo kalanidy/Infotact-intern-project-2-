@@ -1,0 +1,5 @@
+Check,Result
+Unique customers in original dataset,4338
+Unique customers in purchase frequency table,4338
+Unique customers in frequency segment table,4338
+Customer count match,True
