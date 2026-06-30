@@ -1,5 +1,5 @@
 # Week 4: README & Business Implications Report
-**Member:** Hiren (branch: member-d)  
+**Member:** Osonye Onemazuwa (branch: hiren)  
 **Project:** SaaS/E-Commerce Cohort Retention & CLTV Analysis  
 **Organization:** Infotact Solutions  
 **Date Range:** 30th June – 4th July 2026  
@@ -71,7 +71,7 @@ the final GitHub repository structure.
 
 ## ➡️ Next Steps
 - Complete all 5 days of README writing
-- Include specific retention findings from Member A heatmap
-- Include decay curve findings from Member B charts
+- Include specific retention findings from yash heatmap
+- Include decay curve findings from kalanidy charts
 - Add strategic recommendations with data backing
 - Organise final repo structure
