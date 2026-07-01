@@ -59,7 +59,27 @@ Create a single cohort retention decay line chart using the prepared dataset.
 git commit -m "viz: load retention matrix and set up Power BI environment (fixes #18)"
 ```
 
-## Author
+## Date
+1 July
 
-A. Kalanidy
-Infotact Data Analytics Internship
+## Task
+Create a single cohort retention decay line chart in Power BI.
+
+## Work Done
+- Created Customer Cohort table.
+- Merged cohort data with the retail dataset.
+- Calculated `CohortIndex`.
+- Created `Retained Customers` measure.
+- Built a single cohort retention line chart.
+- Added chart title and axis labels.
+
+## Tools
+- Power BI
+- Power Query
+- DAX
+
+## Output
+A line chart showing customer retention for a single cohort over time.
+
+## Next
+Overlay multiple cohort retention curves on one chart.
