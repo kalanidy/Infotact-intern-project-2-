@@ -227,10 +227,41 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 ## 📊 Week 4: Visualization & Strategic Insights
 
 ### Cohort Retention Heatmap
-*(To be updated with findings from Yash)*
+**Tool:** Seaborn / Matplotlib
+**Type:** Colour-coded retention matrix
 
-> Visualization shows retention rates across all cohorts 
-> using a colour-coded heatmap built with Seaborn/Power BI.
+#### Key Findings:
+- **Best Performing Cohort:** December 2010 — 100% 
+  baseline with strongest overall retention trajectory
+- **Worst Performing Cohort:** March 2011 — only 
+  20.73% average retention across all months
+- **Month 1** shows the lowest average retention 
+  at **13.30%** — the critical churn point
+- Retention gradually **increases from Month 3 onwards** 
+  reaching **27.17% by Month 12**
+- The heatmap clearly shows darker cells 
+  (higher retention) concentrated in:
+  - Month 0 (100% — original cohort)
+  - Month 11 and Month 12 (loyal survivors)
+- Lighter cells (lower retention) concentrated in:
+  - Month 1 to Month 3 (early churn period)
+
+#### 💡 Business Implication:
+> The heatmap visually confirms that the business 
+> loses the vast majority of customers in the first 
+> 3 months after acquisition. December 2010 cohort 
+> consistently shows the darkest cells — confirming 
+> it as the highest quality acquisition cohort.
+> March 2011 cohort shows the lightest cells overall 
+> at 20.73% average retention — the worst performing 
+> cohort likely due to post-holiday seasonal drop-off.
+
+#### 🎯 Recommendation:
+> Use the heatmap as a monthly monitoring tool.
+> Any cohort showing lighter than average cells 
+> in Month 1 should immediately trigger a 
+> re-engagement campaign to prevent further churn.
+
 
 ### Retention Decay Line Charts
 **Tool:** Power BI  
