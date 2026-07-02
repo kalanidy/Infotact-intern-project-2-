@@ -296,6 +296,21 @@ Based on the full analysis across all 4 weeks:
 > Maximise acquisition budget in November-December every year 
 > to acquire the highest quality highest retention cohorts.
 
+### Priority 6 — 30-Day Onboarding Sequence (Urgent)
+> The December 2010 cohort shows ~79% of customers churn within
+> the first month. Implement a structured 30-day onboarding sequence
+> with weekly email touchpoints to guide new customers through
+> their critical first 4 weeks after acquisition.  
+> A customer retained past Month 1 is significantly more likely
+> to become a long-term loyal customer.
+
+### Priority 7 — Month 7 Re-engagement Campaign
+> Data shows a minor but consistent downward fluctuation at Month 6 and
+> month 7 across cohorts — possibly linked to seasonal spending behaviour
+> or competitor promotions during that period.  
+> Implement a targeted re-engagement campaign at Month 6 with
+> exclusive offers to prevent this predictable churn point.
+
 ---
 
 ## 📁 Repository Structure
