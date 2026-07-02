@@ -233,11 +233,36 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 > using a colour-coded heatmap built with Seaborn/Power BI.
 
 ### Retention Decay Line Charts
-*(To be updated with findings from Kalanidy)*
+**Tool:** Power BI  
+**Cohort Analysed:** December 2010 cohort
 
-> Line charts showing how each cohort's retention declines 
-> from Month 0 to final month. Multiple cohorts overlaid 
-> for side-by-side comparison.
+#### Key Findings:
+- Original cohort size at Month 0: 644 customers
+- Retention dropped sharply to 122 customers by Month 1
+- This represents a **~79% drop** in the first month alone
+- Retention stabilized between Month 2 and Month 5 at around 120-150 customers
+- A minor downward fluctuation was observed at **Month 6** and **Month 7** before recovery
+- Despite the Month 7 dip, an overall gradual recovery trend continued
+- By Month 12 retained customers increased to approximately 200 customers
+- This suggests a loyal core group of customers who become increasingly 
+  engaged over time
+
+#### 💡 Business Implication:
+> The December 2010 cohort shows the classic e-commerce retention pattern —
+> massive early churn followed by stabilization among loyal customers.
+> The minor dip at Month 7 may indicate a **seasonal drop-off** possibly
+> linked to summer spending behaviour or competitor promotions.
+> The overall recovery trend from Month 5 to Month 12 is encouraging
+> and suggests customers who survive past Month 5 are highly likely
+> to remain long-term loyal customers.
+
+#### 🎯 Recommendations:
+> 1. Focus retention efforts on the critical **first 30 days** after
+>    acquisition to reduce the massive Month 0 → Month 1 drop.
+> 2. Implement a targeted **Month 7 re-engagement campaign** to address
+>    the seasonal dip and prevent further churn at that point.
+> 3. Reward customers who reach **Month 5+** with a loyalty incentive
+>    to accelerate the recovery trend.
 
 ---
 
