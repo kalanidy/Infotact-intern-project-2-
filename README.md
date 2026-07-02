@@ -241,20 +241,30 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 - Retention dropped sharply to 122 customers by Month 1
 - This represents a **~79% drop** in the first month alone
 - Retention stabilized between Month 2 and Month 5 at around 120-150 customers
-- A minor downward fluctuation was observed at **Month 6** and **Month 7** before recovery
-- Despite the Month 7 dip, an overall gradual recovery trend continued
-- By Month 12 retained customers increased to approximately 200 customers
+- Month 5: 140 customers
+- Month 6: slight dip to 137 customers
+- Month 7: notable drop to **118 customers** — lowest point after stabilization
+- Month 8: recovery to 125 customers confirming the dip was temporary
+- Overall gradual recovery trend continued through to Month 11
+- Month 11: peak recovery at **181 customers**
+- Month 12: slight dip to **175 customers**
+- Despite the Month 12 dip, overall retention trend from 
+  Month 1 to Month 12 shows significant recovery
+- From 122 customers at Month 1 to 175 customers at Month 12
+  represents a **43% recovery** among surviving customers
 - This suggests a loyal core group of customers who become increasingly 
   engaged over time
 
 #### 💡 Business Implication:
 > The December 2010 cohort shows the classic e-commerce retention pattern —
 > massive early churn followed by stabilization among loyal customers.
-> The minor dip at Month 7 may indicate a **seasonal drop-off** possibly
-> linked to summer spending behaviour or competitor promotions.
-> The overall recovery trend from Month 5 to Month 12 is encouraging
-> and suggests customers who survive past Month 5 are highly likely
-> to remain long-term loyal customers.
+> The notable drop at Month 7 (from 137 to 118 customers) followed
+> by immediate recovery at Month 8 (125 customers) suggests a
+> **temporary seasonal dip** rather than permanent churn.
+> This predictable pattern presents a clear intervention opportunity.
+> The slight dip at Month 12 (181 → 175 customers) warrants
+> monitoring in future cohorts to determine if this is a
+> consistent seasonal pattern or a one-off occurrence.
 
 #### 🎯 Recommendations:
 > 1. Focus retention efforts on the critical **first 30 days** after
@@ -279,15 +289,15 @@ Based on the full analysis across all 4 weeks:
 ### Priority 2 — Protect High Value Customers
 > 25% of customers generate the vast majority of revenue.  
 > Implement a VIP loyalty program with exclusive benefits 
-> for customers with 12-Month CLTV above £19,927 (75th percentile).
+> for customers with 12-Month CLTV above $19,927 (75th percentile).
 
 ### Priority 3 — Optimize Marketing Spend by Segment
-> Never spend more than £23,350 acquiring a High Value customer 
-> and never more than £640 acquiring a Low Value customer.  
+> Never spend more than $23,350 acquiring a High Value customer 
+> and never more than $640 acquiring a Low Value customer.  
 > Set separate acquisition budgets per customer segment.
 
 ### Priority 4 — Geographic Expansion
-> Netherlands (£246,720 avg CLTV) and EIRE (£135,489 avg CLTV) 
+> Netherlands ($246,720 avg CLTV) and EIRE ($135,489 avg CLTV) 
 > customers are 31x and 17x more valuable than UK customers.  
 > Increase marketing investment in these markets immediately.
 
