@@ -112,34 +112,34 @@ and full project coverage.
 | Metric | Value |
 |---|---|
 | Total Customers Analysed | 4,338 |
-| Overall Mean CLTV | £2,048 |
-| Median CLTV | £668 |
-| Min CLTV | £3.75 |
-| Max CLTV | £280,206 |
-| Overall Mean 12-Month CLTV | £24,584 |
-| Overall Mean Max CAC | £7,375 |
+| Overall Mean CLTV | $2,048 |
+| Median CLTV | $668 |
+| Min CLTV | $3.75 |
+| Max CLTV | $280,206 |
+| Overall Mean 12-Month CLTV | $24,584 |
+| Overall Mean Max CAC | $7,375 |
 
 ### Customer Segmentation:
 | Segment | 12-Month CLTV | Max CAC | Customers |
 |---|---|---|---|
-| High Value | £77,835 | £23,350 | 1,085 |
-| Mid Value | £9,168 | £2,750 | 2,168 |
-| Low Value | £2,136 | £640 | 1,085 |
+| High Value | $77,835 | $23,350 | 1,085 |
+| Mid Value | $9,168 | $2,750 | 2,168 |
+| Low Value | $2,136 | $640 | 1,085 |
 
 ### Top 5 Countries by Average CLTV:
 | Country | Average CLTV |
 |---|---|
-| Netherlands | £246,720 |
-| EIRE | £135,489 |
-| Australia | £76,919 |
-| Singapore | £21,279 |
-| Sweden | £14,774 |
+| Netherlands | $246,720 |
+| EIRE | $135,489 |
+| Australia | $76,919 |
+| Singapore | $21,279 |
+| Sweden | $14,774 |
 
 ### 💡 Key Findings:
 
 **Finding 1 — High Value Customers:**
 > Only 25% of customers (1,085) fall into the High Value segment
-> but they generate an average 12-Month CLTV of £77,835 —
+> but they generate an average 12-Month CLTV of $77,835 —
 > nearly 9x more than Mid Value customers.
 > These customers are critical to protect and retain.
 
