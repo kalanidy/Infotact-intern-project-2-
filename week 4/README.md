@@ -83,3 +83,49 @@ A line chart showing customer retention for a single cohort over time.
 
 ## Next
 Overlay multiple cohort retention curves on one chart.
+
+# Member B - Multi Cohort Retention Comparison
+
+## Date
+2 July
+
+## Task
+Overlay multiple cohort retention curves on a single line chart for side-by-side comparison.
+
+## Work Done
+- Removed the single cohort filter.
+- Added `CohortMonth` as the chart legend.
+- Displayed multiple cohort retention curves.
+- Compared customer retention across different cohorts.
+- Improved chart readability for analysis.
+
+## Tools
+- Power BI
+- Power Query
+- DAX
+
+## Output
+A multi-line retention chart comparing customer retention behavior across multiple customer cohorts.
+
+# Member B - Chart Formatting
+
+## Date
+3 July
+
+## Task
+Improve the formatting and presentation of retention charts.
+
+## Work Done
+- Updated chart titles.
+- Added axis labels.
+- Enabled markers.
+- Improved line width.
+- Added gridlines.
+- Formatted legends.
+- Improved dashboard layout.
+
+## Tools
+- Power BI
+
+## Output
+Professional and presentation-ready customer retention charts
