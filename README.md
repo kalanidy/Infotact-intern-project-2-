@@ -94,6 +94,8 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 | After Removing Null CustomerIDs | 392,692 rows |
 | Records Removed | 149,217 rows (27.3%) |
 | Unique Customers | 4,338 |
+| Unique Countries | 37 |
+| Unique Products | 3,684 |
 
 ### 💡 Business Implication:
 > Over 27% of raw transactions were invalid — cancelled, missing customer
@@ -112,6 +114,7 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 - Formatted CohortMonth to readable date strings (e.g. 2010-12, 2011-01)
 - Verified absolute numbers are consistent across all cohorts
 - Calculated percentage retention rates per cohort per month
+- Identified best and worst performing cohorts
 
 ### Key Retention Results:
 | Metric | Value |
@@ -162,6 +165,7 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 - Segmented customers into High, Mid and Low value groups
 - Calculated maximum acceptable CAC (30% of 12-Month CLTV)
 - Performed Geographic CLTV analysis by country
+- Cross-validated total revenue: $8,887,208.89
 
 ### Key CLTV Results:
 | Metric | Value |
@@ -173,6 +177,7 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 | Max CLTV | $280,206 |
 | Overall Mean 12-Month CLTV | $24,584 |
 | Overall Mean Max CAC | $7,375 |
+| Total Revenue (cross - validated) | $8,887,208.89 |
 
 ### Customer Segmentation by CLTV:
 | Segment | 12-Month CLTV | Max CAC | Customer Count |
@@ -264,46 +269,41 @@ https://www.kaggle.com/datasets/vijayuv/onlineretail
 
 
 ### Retention Decay Line Charts
-**Tool:** Power BI  
-**Cohort Analysed:** December 2010 cohort
+**Tool:** Matplotlib (Python)
+**File:** `kalanidy/week 4/Week4_kalanidy.ipynb`
+**Type:** Multi-cohort overlay line chart
 
 #### Key Findings:
-- Original cohort size at Month 0: 644 customers
-- Retention dropped sharply to 122 customers by Month 1
-- This represents a **~79% drop** in the first month alone
-- Retention stabilized between Month 2 and Month 5 at around 120-150 customers
-- Month 5: 140 customers
-- Month 6: slight dip to 137 customers
-- Month 7: notable drop to **118 customers** — lowest point after stabilization
-- Month 8: recovery to 125 customers confirming the dip was temporary
-- Overall gradual recovery trend continued through to Month 11
-- Month 11: peak recovery at **181 customers**
-- Month 12: slight dip to **175 customers**
-- Despite the Month 12 dip, overall retention trend from 
-  Month 1 to Month 12 shows significant recovery
-- From 122 customers at Month 1 to 175 customers at Month 12
-  represents a **43% recovery** among surviving customers
-- This suggests a loyal core group of customers who become increasingly 
-  engaged over time
+- All cohorts start at **100% retention at Month 0**
+- **Massive drop at Month 1** — all cohorts fall to 10-20% range
+- **December 2010 cohort** consistently outperforms all other
+  cohorts across every single month
+- Most cohorts stabilize between **10-20% retention** from Month 2 onwards
+- **December 2011 cohort** shows an unusual spike at Month 5
+  before returning to baseline — worth further investigation
+- December 2010 cohort reaches **~27% by Month 11** — highest
+  long-term retention of all cohorts
+- Later 2011 cohorts show the lowest overall retention trajectories
+- The chart confirms early churn is a **systematic business problem**
+  affecting all cohorts equally — not isolated to specific months
 
 #### 💡 Business Implication:
-> The December 2010 cohort shows the classic e-commerce retention pattern —
-> massive early churn followed by stabilization among loyal customers.
-> The notable drop at Month 7 (from 137 to 118 customers) followed
-> by immediate recovery at Month 8 (125 customers) suggests a
-> **temporary seasonal dip** rather than permanent churn.
-> This predictable pattern presents a clear intervention opportunity.
-> The slight dip at Month 12 (181 → 175 customers) warrants
-> monitoring in future cohorts to determine if this is a
-> consistent seasonal pattern or a one-off occurrence.
+> The multi-cohort decay chart clearly confirms that **December
+> acquisition cohorts significantly outperform all other months**
+> in long-term retention. The consistent gap between December 2010
+> and all 2011 cohorts suggests Christmas-season customers have
+> higher purchase intent and lifetime value.
+> All cohorts show the same pattern — massive Month 1 drop followed
+> by stabilization — confirming this is a systematic business
+> problem requiring an immediate solution.
 
 #### 🎯 Recommendations:
-> 1. Focus retention efforts on the critical **first 30 days** after
->    acquisition to reduce the massive Month 0 → Month 1 drop.
-> 2. Implement a targeted **Month 7 re-engagement campaign** to address
->    the seasonal dip and prevent further churn at that point.
-> 3. Reward customers who reach **Month 5+** with a loyalty incentive
->    to accelerate the recovery trend.
+> 1. Prioritise customer acquisition in **November-December** every year
+>    to acquire the highest quality retention cohorts
+> 2. Investigate what caused the **December 2011 Month 5 spike**
+>    and replicate that trigger across other cohorts
+> 3. Focus re-engagement efforts specifically on **Month 1**
+>    since this is where all cohorts lose the most customers
 
 ---
 
@@ -370,6 +370,7 @@ main/
 |   ├── week 2/
 |   ├── week 3/
 │   └── week 4/
+|      └── master_notebook.ipynb
 |
 ├── kalanidy/
 |   ├── week 1/
@@ -396,8 +397,8 @@ main/
 | NumPy | Numerical computations |
 | OS | File and directory management |
 | Seaborn | Cohort retention heatmap |
-| Matplotlib | Retention decay line charts |
-| Power BI | Interactive dashboard |
+| Power BI | Initial retention decay exploration |
+| Matplotlib | Final Retention decay line charts |
 | Jupyter Notebook | Interactive development |
 | Git & GitHub | Version control and collaboration |
 
@@ -407,4 +408,5 @@ main/
 - All commits made to individual branches only
 - Raw CSV data files excluded from GitHub via .gitignore
 - Team Lead (Kalanidy) or hiren handles merging into main branch
+- Master notebook available at `hiren/week 4/master_notebook.ipynb`
 - Final Review: 5th — 10th July 2026
