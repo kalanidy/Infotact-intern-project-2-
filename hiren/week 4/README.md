@@ -1,77 +1,39 @@
-# Week 4: README & Business Implications Report
-**Member:** Osonye Onemazuwa (branch: hiren)  
-**Project:** SaaS/E-Commerce Cohort Retention & CLTV Analysis  
-**Organization:** Infotact Solutions  
-**Date Range:** 30th June – 4th July 2026  
-**Status:** 🔄 In Progress  
+## 📓 Master Notebook
+**File:** `master_notebook.ipynb`  
+**Status:** ✅ Completed  
 
----
+### Overview:
+The master notebook is the complete consolidated analysis covering
+all 4 weeks in one clean end-to-end pipeline.
 
-## 🎯 Week 4 Objective
-Write the final detailed README explaining all business implications 
-of the Cohort Retention and CLTV analysis. Document data-backed 
-recommendations to improve retention and reduce churn. Organise 
-the final GitHub repository structure.
+### What's Inside:
+| Week | Steps | Content |
+|---|---|---|
+| Week 1 | Steps 1-12 | Data loading, cleaning, validation, CohortMonth |
+| Week 2 | Steps 13-17 | Retention matrix, absolute users, percentage retention |
+| Week 3 | Steps 18-26 | CLTV, AOV, purchase frequency, segmentation, CAC, geographic |
+| Week 4 | Steps 27-33 | 6 visualizations, outputs, strategic recommendations |
 
----
+### Visualizations Produced:
+- 01_cohort_retention_heatmap.png
+- 02_retention_decay_charts.png
+- 03_revenue_by_cohort.png
+- 04_top_countries_cltv.png
+- 05_customer_segments.png
+- 06_aov_by_cohort.png
 
-## 📋 Task Breakdown
+### How to Run:
+1. Download `master_notebook.ipynb`
+2. Download dataset from Kaggle:
+   https://www.kaggle.com/datasets/vijayuv/onlineretail
+3. Place dataset in same folder as notebook
+4. Open in Jupyter Notebook
+5. Run → Run All Cells
+6. Outputs saved automatically to `outputs/` folder
 
-| Day | Date | Task | Status |
-|---|---|---|---|
-| Day 1 | 30th June | Project overview and dataset section | 🔄 In Progress |
-| Day 2 | 1st July | Week 1 & 2 findings — cohort retention insights | ⏳ Upcoming |
-| Day 3 | 2nd July | Week 3 findings — CLTV segment and CAC insights | ⏳ Upcoming |
-| Day 4 | 3rd July | Strategic recommendations — churn reduction advice | ⏳ Upcoming |
-| Day 5 | 4th July | Final repo structure organisation | ⏳ Upcoming |
-
----
-
-## 📊 Key Findings Preview
-
-### Customer Segments:
-| Segment | 12-Month CLTV | Max CAC | Customer Count |
-|---|---|---|---|
-| High Value | $77,835 | $23,350 | 1,085 |
-| Mid Value | $9,168 | $2,750 | 2,168 |
-| Low Value | $2,136 | $640 | 1,085 |
-
-### Top 5 Countries by Average CLTV:
-| Country | Average CLTV |
-|---|---|
-| Netherlands | $246,720 |
-| EIRE | $135,489 |
-| Australia | $76,919 |
-| Singapore | $21,279 |
-| Sweden | $14,774 |
-
-### Overall Metrics:
-| Metric | Value |
-|---|---|
-| Total Customers Analysed | 4,338 |
-| Overall Mean CLTV | $2,048 |
-| Overall Mean 12-Month CLTV | $24,584 |
-| Overall Mean Max CAC |$7,375 |
-
----
-
-## 📁 Files in This Folder
-
-| File | Description |
-|---|---|
-| `README.md` | This file — Week 4 task breakdown and findings preview |
-
----
-
-## 🔗 Related Files
-- Week 3 CLTV Analysis: `../week3/hiren_cltv.ipynb`
-- Full Project README: `../README.md`
-
----
-
-## ➡️ Next Steps
-- Complete all 5 days of README writing
-- Include specific retention findings from yash heatmap
-- Include decay curve findings from kalanidy charts
-- Add strategic recommendations with data backing
-- Organise final repo structure
+### Note:
+> Minor differences in figures between individual member notebooks
+> and this master notebook are due to the cleaning methodology.
+> Individual notebooks use a pre-cleaned dataset prepared during Week 1.
+> This master notebook demonstrates the complete end-to-end pipeline
+> from raw data to final insights.
